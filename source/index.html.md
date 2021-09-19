@@ -6,6 +6,7 @@ language_tabs: # must be one of https://git.io/vQNgJ
   - ruby
   - python
   - javascript
+  - php
 
 toc_footers:
   - <a href='#'>Sign Up for a Developer Key</a>
@@ -87,6 +88,11 @@ import kittn
 
 api = kittn.authorize('meowmeowmeow')
 api.kittens.get()
+```
+```php
+
+echo "Hello World!";
+
 ```
 
 ```shell
